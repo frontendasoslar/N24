@@ -1,1 +1,33 @@
 /* Rubik 400, Rubik 500 */
+html {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4A4B4C;
+  background-color: white;
+}
+
+/* contanier */
+.contanier {
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* main */
+
+.main-content {
+  flex-grow: 1;
+}
