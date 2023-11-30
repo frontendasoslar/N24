@@ -70,6 +70,7 @@ body{
 .search {
  width: 275px;
  height: 45px;
+ border: 0;
 }
 
 .search-box {
