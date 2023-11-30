@@ -10,6 +10,8 @@ body{
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding: 0;
+  margin: 0s;
   font-family: "Rubik", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -26,9 +28,9 @@ ul {
   margin-bottom: 30px;
 }
 /* contanier */
-.contanier {
+.cotainer {
   width: 100%;
-  max-width: 1270px;
+  max-width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -44,9 +46,8 @@ ul {
 }
 
 .site-logo {
-  width: 278px;
-  height: 47px;
-  border-radius: 7px;
+  background-color: #FFFFFF
+  padding: 6px;
 }
 
 .exchange-rate {
@@ -147,6 +148,9 @@ ul {
   margin-bottom: 20px;
 }
 
+.header-nav-contanier {
+
+}
 .header-nav-content {
   text-decoration: none;
   font-size: 19px;
@@ -168,6 +172,10 @@ ul {
 /* header-nav-line */
 .header-nav-line {
   border: 1px solid #D1D1D1;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 1220px;
 }
 
 .main-content {
