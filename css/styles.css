@@ -207,13 +207,18 @@ body{
   text-align: center;
   line-height: 21.33px;
   color: #7f7f7f;
+  font-weight: 500;
 }
 
-.header-nav-list {
+.site-header-nav-text:hover {
+ color: #2959CE;
+}
 
+.site-header-nav-text:active {
+  opacity: 0.8;
 }
 .header-nav-list:not(:last-child) {
-  margin-right: 38px;
+  margin-right: 34px;
 }
 
 /* SITE-HEADER-BANER */
@@ -447,6 +452,28 @@ body{
   color: #5E5F61;
 }
 
+.show-again {
+  background-color: #EAEAEA;
+  padding: 17px 343px;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 18.96px;
+  margin: 0;
+  border: 0;
+  margin-bottom: 100px;
+}
+
+.show-again:hover {
+  background-color:#7296EC;
+}
+
+.show-again:active {
+  opacity: 0.6;
+}
+
 /* GLAVNO NEWS */
 .glavno-news {
   background-color: #F6F6F6;
@@ -520,4 +547,123 @@ body{
   padding: 0;
   margin: 0;
   margin-left: 10px;
+}
+
+/* SITE_FOOTER */
+.site-footer {
+  background-color: #7297EF;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  margin-left: 101px;
+}
+
+.site-footer-logo {
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.footer-content {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #CECECE;
+}
+
+.site-footer-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.footer-content-text {
+  font-size: 12px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 19px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-right: 200px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-footer {
+  padding: 0;
+  margin: 0;
+}
+
+.list-footer:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer-list:not(:last-child) {
+  margin-right: 100px;
+}
+
+.footer-list-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER-NAV */
+.footer-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.footer-nav-text {
+ font-size: 18px;
+ font-family: "Rubik", "Arial", sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 127.778%;
+ color: #fff;
+ margin: 0;
+ padding: 0;
+ margin-right: 660px;
+}
+
+.footer-nav-list {
+ list-style: none;
+ display: flex;
+ align-items: center;
+ margin: 0;
+ padding: 0;
+}
+
+.footer-nav-itm:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-nav-img:hover {
+  opacity: 0.8;
+}
+
+.footer-nav-img:active {
+  opacity: 0.6;
 }
