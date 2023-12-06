@@ -627,6 +627,13 @@ body{
   padding: 0;
 }
 
+.footer-list-link:hover {
+  color: #CECECE;
+}
+
+.footer-list-link:active {
+  opacity: 0.8;
+}
 /* FOOTER-NAV */
 .footer-nav {
   display: flex;
