@@ -675,3 +675,322 @@ body{
 .footer-nav-img:active {
   opacity: 0.6;
 }
+
+/* LIST PART */
+
+.list-news-time {
+  font-size: 12px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #5E5F61;
+
+}
+
+.list-iconc-text-1 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-1::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-2 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-2::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-3 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-3::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-4 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-4::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-4.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-5 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-5::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-5.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-6 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-6::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-6.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-7 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-7::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-7.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.list-iconc-text-8 {
+  display: flex;
+  align-items: center;
+}
+.list-iconc-text-8::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/list-iconc-8.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.lis-glavno-news-image {
+  width: 393px;
+  height: 553px;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+
+/* ARTICLE */
+
+.header-list-nav {
+ padding: 0;
+ margin: 0;
+ margin-bottom: 40px;
+}
+
+.article-iconc {
+  margin-bottom: 40px;
+}
+
+.article-item {
+  margin-bottom: 60px;
+  width: 797px;
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.article-title {
+ display: flex;
+ flex-direction: column;
+ font-size: 26px;
+ font-family: "Rubik", "Arial", sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 36px;
+ color: #000;
+ padding: 0;
+ margin: 0;
+ margin-bottom: 25px;
+}
+
+.article-title::after {
+  content: "";
+  width: 797px;
+  height: 300px;
+  background-image: url("../img/tesla-fon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 20px;
+  border-radius: 13px;
+}
+
+.apticle-main-text {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  width: 797px;
+}
+
+.apticle-main-text:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.article-main-last-text {
+  margin-bottom: 50px;
+}
+
+
+/* ARTICLE-NOTIFICATION */
+.article-notification {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+}
+.article-notification-item {
+  font-size: 24px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.article-notification-list-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.article-notification-list-title {
+  background-color: #F6F6F6;
+  padding: 20px 18px 15px 17px;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.article-notification-list-title:not(:last-child) {
+  margin-right: 10px;
+}
+
+.article-notification-link {
+  text-decoration: none;
+ font-size: 20px;
+ font-family: "Rubik", "Arial", sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 1.3;
+ color: #000;
+ padding: 0;
+ margin: 0;
+ margin-bottom: 10px;
+}
+
+.article-notification-link:hover {
+  color: #7296EC;
+}
+
+.article-notification-link:active {
+  opacity: 0.6;
+}
+
+.article-notification-list-text {
+  font-size: 16px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375;
+  color: #4a4b4c;
+  padding: 0;
+  margin: 10px 0 23px 0;
+}
+
+.article-notification-iconca {
+  font-size: 13px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #5E5F61;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.article-notification-iconc-1::before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url("../img/article-notification-1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.article-notification-iconc-2::before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url("../img/article-notification-2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.article-notification-iconc-3::before {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  background-image: url("../img/article-notification-3.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+}
