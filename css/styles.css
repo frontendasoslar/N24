@@ -1113,9 +1113,11 @@ body{
   color: #fff;
 }
 .site-contacts-info {
+  width: 494px;
+  height: 310px;
   padding: 0;
   margin: 0;
-  padding: 40px 25px;
+  padding: 40px 25px 20px 25px;
   background-color: #F6F6F6;
   border: 0;
   border-radius: 10px;
@@ -1124,11 +1126,31 @@ body{
   padding: 0;
   margin: 0;
 }
+
+.site-contact:not(:last-child) {
+  border-bottom: 1px solid #D2D2D2;
+  margin-bottom: 20px;
+}
 .site-contact-title {
   padding: 0;
   margin: 0;
+  font-size: 20px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+  margin-bottom: 7px;
 }
 .site-contact-text {
+  display: block;
+  text-decoration: none;
   padding: 0;
   margin: 0;
+  font-size: 16px;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
 }
