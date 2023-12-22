@@ -95,6 +95,8 @@ body{
 
 /* SEARCH */
 .search {
+  display: flex;
+  align-items: center;
   width: 275px;
   height: 45px;
   border: 0;
@@ -108,12 +110,18 @@ body{
   font-weight: 400;
   line-height: normal;
   color: #8d8d8d;
-  padding: 6%;
+  padding: 15px 20px 15px 40px;
   border: 0;
   border-radius: 60px;
   margin-right: 28px;
+  background-image: url("../img/Mask.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
 }
+.search-box::before {
 
+}
 /* LANGUAGE */
 .language {
   display: flex;
@@ -323,6 +331,10 @@ body{
   background-color: #ffd7ba;
   margin: 60px 75px;
   border-radius: 10px;
+  background-image: url("../img/Group.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .notification-text {
@@ -1084,6 +1096,7 @@ body{
   display: block;
   width: 696px;
   height: 180px;
+  padding: 18px 20px;
   resize: vertical;
 }
 
