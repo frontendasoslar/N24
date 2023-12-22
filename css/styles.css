@@ -30,6 +30,10 @@ body{
   margin-right: auto;
 }
 
+.site-main {
+  flex-grow: 1;
+}
+
 .site-header-contanier {
   display: flex;
   align-items: center;
