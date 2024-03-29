@@ -1,12 +1,12 @@
-const  elnotification_button = document.querySelector('.notification-button');
-const elModal = document.querySelector('.modal');
-const elmodal_back = document.querySelector('.modal-back');
+const elModal = document.querySelector('.modal');//Modal elementining klasini topib olayapdi
+const elmodal_back = elModal.querySelector('.js-modal-close');//Modal elementi ichidagi close tugmasini js ga tegishli klasini topib olayapdi
 
-elnotification_button.addEventListener('click', function() {
- elModal.classList.add('open-modal')
-})
+setTimeout (function() {//Bu biror bir vaqtdan keyin biror jarayon sodir bo'lishi uchun ishlatiladigan teg. Bu teg 30 sekunddan keyin modal elementiga open modal klesini qo'shib qo'yayapdi
+  elModal.classList.add('open-modal');
+}, 30000);
 
-
-elmodal_back.addEventListener('click', function() {
-  elModal.classList.remove('open-modal')
- })
+if (elmodal_back) {//Agar shu js kod ishlamasi undan keyingi js kodga o'tib ketishi uchun sug'urtalab qo'yayapdi
+   elmodal_back.addEventListener('click', function() {//close elementining clasi click hodisasiga quloq solayapdi
+     elModal.classList.remove('open-modal')//va close tugmasi bosilganda modal elementidan open modal klasini olib tashlayapdi
+    })
+}
